@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B34DF6C520A0766400A22552 /* RestaurantCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34DF6C420A0766400A22552 /* RestaurantCollectionViewCell.swift */; };
 		B3665B692091FF0200EB6A4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3665B682091FF0200EB6A4F /* AppDelegate.swift */; };
 		B3665B6E2091FF0200EB6A4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3665B6C2091FF0200EB6A4F /* Main.storyboard */; };
 		B3665B712091FF0200EB6A4F /* foodApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B3665B6F2091FF0200EB6A4F /* foodApp.xcdatamodeld */; };
@@ -19,11 +20,12 @@
 		B3665B8E20920B2D00EB6A4F /* meks1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3665B8820920B2C00EB6A4F /* meks1.jpg */; };
 		B3665B8F20920B2D00EB6A4F /* meks3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3665B8920920B2C00EB6A4F /* meks3.jpg */; };
 		B3665B9020920B2D00EB6A4F /* meks2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3665B8A20920B2C00EB6A4F /* meks2.jpg */; };
-		B3665B9120920B2D00EB6A4F /* meks6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3665B8B20920B2C00EB6A4F /* meks6.jpg */; };
 		B3665B9320920D9B00EB6A4F /* meksLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = B3665B9220920D9B00EB6A4F /* meksLogo.png */; };
+		B36FC81A20986D0D00A01F0E /* meks6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B36FC81C20986D0D00A01F0E /* meks6.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B34DF6C420A0766400A22552 /* RestaurantCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCollectionViewCell.swift; sourceTree = "<group>"; };
 		B3665B652091FF0100EB6A4F /* foodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3665B682091FF0200EB6A4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3665B6D2091FF0200EB6A4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,8 +40,8 @@
 		B3665B8820920B2C00EB6A4F /* meks1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meks1.jpg; sourceTree = "<group>"; };
 		B3665B8920920B2C00EB6A4F /* meks3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meks3.jpg; sourceTree = "<group>"; };
 		B3665B8A20920B2C00EB6A4F /* meks2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meks2.jpg; sourceTree = "<group>"; };
-		B3665B8B20920B2C00EB6A4F /* meks6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meks6.jpg; sourceTree = "<group>"; };
 		B3665B9220920D9B00EB6A4F /* meksLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meksLogo.png; sourceTree = "<group>"; };
+		B36FC81D20986D1400A01F0E /* en */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = en; path = en.lproj/meks6.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				B3665B682091FF0200EB6A4F /* AppDelegate.swift */,
 				B3665B7D2091FFF900EB6A4F /* MainCollectionViewController.swift */,
 				B3665B81209204A000EB6A4F /* CuisineCollectionViewCell.swift */,
+				B34DF6C420A0766400A22552 /* RestaurantCollectionViewCell.swift */,
 				B3665B6C2091FF0200EB6A4F /* Main.storyboard */,
 				B3665B722091FF0300EB6A4F /* Assets.xcassets */,
 				B3665B742091FF0300EB6A4F /* LaunchScreen.storyboard */,
@@ -94,7 +97,7 @@
 				B3665B8920920B2C00EB6A4F /* meks3.jpg */,
 				B3665B8620920B2C00EB6A4F /* meks4.jpg */,
 				B3665B8720920B2C00EB6A4F /* meks5.jpg */,
-				B3665B8B20920B2C00EB6A4F /* meks6.jpg */,
+				B36FC81C20986D0D00A01F0E /* meks6.jpg */,
 			);
 			path = meks;
 			sourceTree = "<group>";
@@ -157,7 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3665B9120920B2D00EB6A4F /* meks6.jpg in Resources */,
+				B36FC81A20986D0D00A01F0E /* meks6.jpg in Resources */,
 				B3665B8C20920B2D00EB6A4F /* meks4.jpg in Resources */,
 				B3665B762091FF0300EB6A4F /* LaunchScreen.storyboard in Resources */,
 				B3665B9020920B2D00EB6A4F /* meks2.jpg in Resources */,
@@ -179,6 +182,7 @@
 			files = (
 				B3665B692091FF0200EB6A4F /* AppDelegate.swift in Sources */,
 				B3665B82209204A000EB6A4F /* CuisineCollectionViewCell.swift in Sources */,
+				B34DF6C520A0766400A22552 /* RestaurantCollectionViewCell.swift in Sources */,
 				B3665B7E2091FFF900EB6A4F /* MainCollectionViewController.swift in Sources */,
 				B3665B712091FF0200EB6A4F /* foodApp.xcdatamodeld in Sources */,
 			);
@@ -201,6 +205,14 @@
 				B3665B752091FF0300EB6A4F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B36FC81C20986D0D00A01F0E /* meks6.jpg */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36FC81D20986D1400A01F0E /* en */,
+			);
+			name = meks6.jpg;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
